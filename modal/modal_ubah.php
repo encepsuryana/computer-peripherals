@@ -2,7 +2,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"><i class="fas fa-edit"></i> Ubah Data asset </h5>
+                    <span class="modal-title" id="exampleModalLabel"> Ubah Data asset </span>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>

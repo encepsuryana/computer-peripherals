@@ -27,6 +27,32 @@ body {
     font-weight: 700;
 }
 
+.modal-header .close {
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.modal-title {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover,
+button.close {
+    color: #fff;
+}
+
+.modal-header {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 5px;
+}
+
+.modal-title {
+    margin-left: 42%;
+}
+
 .datepicker table tr td.active.active {
     border-radius: 20px;
     background-color: #2980b9;
