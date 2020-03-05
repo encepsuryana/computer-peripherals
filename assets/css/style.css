@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 0.94rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.action-add {
+    margin-bottom: 10px;
+}
+
+.form-group.input-material .form-control:focus ~ label, .form-group.input-material .form-control[value]:not([value=""]) ~ label {
+    top: -20px;
+}
+.datepicker table tr td.today:hover, .datepicker table tr td.today:hover:hover {
+    background-color: #26a69a;
+    color: #fff;
+}
+.datepicker table tr td.today {
+    border-radius: 20px;
+    background-color: transparent;
+    color: #26a69a;
+    font-weight: 700;
+}
+
+.datepicker table tr td.active.active {
+    border-radius: 20px;
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.title-top {
+    color: #616161;
+    background-color: #bababa;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-shadow: #e0e0e0 1px 1px 0;
+}
+
+.title-top h5 {
+    text-align: center;
+}
+
+.btn-outline-warning {
+    color: #ffc107;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffc107;
+}
+
+.btn-outline-warning:hover {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .45rem 1.25rem;
+    color: inherit;
+}
+
+.table thead th {
+    vertical-align: middle;
+    background-color: #2980b9;
+    color: #fff;
+}
+
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
+    padding-right: 30px;
+    text-align: center;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: right;
+    margin-right: 17px;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin: 10px 0;
+    white-space: nowrap;
+    justify-content: flex-end;
+}
+
+.dataTables_scroll {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.btn-submit {
+	width: 100px;
+}
+
+.btn-reset {
+	width: 100px;
+}
+
+.title-icon {
+    margin-right: 7px;
+}
+
+.modal-dialog {
+    max-width: 1000px;
+}
