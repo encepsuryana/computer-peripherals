@@ -77,6 +77,15 @@ table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_des
     text-align: center;
 }
 
+table.dataTable {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.table-bordered td {
+    border-top-width: 0;
+}
+
 div.dataTables_wrapper div.dataTables_filter {
     text-align: right;
     margin-right: 17px;
