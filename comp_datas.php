@@ -38,6 +38,7 @@
     	"serverSide": true,
     	"select": true,
     	"stateSave": false,
+        "ordering": false,
     	"fixedColumns":   {
     		leftColumns: 2
     	},
