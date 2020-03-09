@@ -65,11 +65,11 @@
             // Motherboard
             { "targets": 8, "width": '180px', "className": 'center' },
             // CPU
-            { "targets": 9, "width": '180px', "className": 'center' },
+            { "targets": 9, "width": '200px', "className": 'center' },
             // RAM
             { "targets": 10, "width": '180px', "className": 'center' },
             // GPU
-            { "targets": 11, "width": '180px', "className": 'center' },
+            { "targets": 11, "width": '200px', "className": 'center' },
             // Storage
             { "targets": 12, "width": '100px', "className": 'center' },
             // Optical Drive

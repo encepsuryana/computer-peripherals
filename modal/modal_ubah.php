@@ -201,7 +201,7 @@
                         <div class="col-sm-3">
                             <div class="form-group">
                                 <label>Password</label>
-                                <input type="password" class="form-control" id="password_edit" name="password" autocomplete="off" minlength="1" maxlength="20">
+                                <input type="password" class="form-control" id="password_edit" name="password" autocomplete="off" minlength="1" maxlength="20" style="padding-right: 50px;">
                             </div>
                         </div>
 
