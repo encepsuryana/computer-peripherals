@@ -17,7 +17,7 @@
                         <div class="col-sm-3">
                             <div class="form-group">
                                 <label>No. Asset</label>
-                                <input type="text" class="form-control" id="no_asset" name="no_asset" autocomplete="off" minlength="1" maxlength="3" onKeyPress="return goodchars(event,'0123456789',this)">
+                                <input type="text" class="form-control" id="no_asset_add" name="no_asset" autocomplete="off" minlength="1" maxlength="3" onKeyPress="return goodchars(event,'0123456789',this)">
                             </div>
                         </div>
 
@@ -38,13 +38,14 @@
                        <div class="col-sm-3">
                         <div class="form-group">
                             <label>Kategori</label>
-                            <select class="form-control custom-select" id="kategori_add" name="kategori" value ="-">
+                            <input type="text" class="form-control" id="kategori_add" name="kategori" autocomplete="off" minlength="1" maxlength="25">
+                            <!-- <select class="form-control custom-select" id="kategori_add" name="kategori" value ="-">
                                 <option class="dropdown-header" disabled selected>Pilih Kategori</option>
                                 <option value="Note Book">Note Book</option>
                                 <option value="Komputer">Komputer</option>
                                 <option value="Server">Server</option>
                                 <option value="All In One PC">All In One PC</option>
-                            </select>
+                            </select> -->
                         </div>
                     </div>
 
@@ -135,14 +136,15 @@
                     <div class="col-sm-3">
                         <div class="form-group">
                             <label>Komputer Type</label>
-                            <select class="form-control custom-select" id="komputer_type_add" name="komputer_type" value ="-">
+                            <input type="text" class="form-control" id="komputer_type_add" name="komputer_type" autocomplete="off" minlength="1" maxlength="50">
+                            <!-- <select class="form-control custom-select" id="komputer_type_add" name="komputer_type" value ="-">
                                 <option class="dropdown-header" disabled selected>Pilih Komputer Type</option>
                                 <option value="Engineering">Engineering</option>
                                 <option value="Office">Office</option>
                                 <option value="CAD Programming">CAD Programming</option>
                                 <option value="Server">Server</option>
                                 <option value="Lain-lain">Lain-lain</option>
-                            </select>
+                            </select> -->
                         </div>
                     </div>
 
@@ -163,29 +165,33 @@
                     <div class="col-sm-3">
                         <div class="form-group">
                             <label>Connectivity</label>
-                            <select class="form-control custom-select" id="connectivity_add" name="connectivity" value ="-">
+                            <input type="text" class="form-control" id="connectivity_add" name="connectivity" autocomplete="off" minlength="1" maxlength="20">
+                            <!-- <select class="form-control custom-select" id="connectivity_add" name="connectivity" value ="-">
                                 <option class="dropdown-header" disabled selected>Pilih Connectivity Type</option>
                                 <option value="Wireless">Wireless</option>
                                 <option value="Wire">Wire</option>
-                            </select>
+                            </select> -->
                         </div>
                     </div>
 
                     <div class="col-sm-3">
                         <div class="form-group">
                             <label>Internet Link</label>
-                            <select class="form-control custom-select" id="internet_add" name="internet" value ="-">
-                                <option class="dropdown-header" disabled selected>-- Pilih Intenet Link --</option>
+                            <input type="text" class="form-control" id="internet_add" name="internet" autocomplete="off" minlength="1" maxlength="5">
+                            <!-- <select class="form-control custom-select" id="internet_add" name="internet" value ="-">
+                                <option class="dropdown-header" disabled selected>Pilih Intenet Link</option>
                                 <option value="Yes">Yes</option>
                                 <option value="No">No</option>
-                            </select>
+                            </select> -->
                         </div>
                     </div>
 
                     <div class="col-sm-3">
                         <div class="form-group">
                             <label>Current User</label>
-                            <select class="form-control custom-select" id="user_add" name="user" value ="-">
+                            <input type="text" class="form-control" id="user_add" name="user" autocomplete="off" minlength="1" maxlength="50">
+                            
+                            <!--<select class="form-control custom-select" id="user_add" name="user" value ="-">
                                 <option class="dropdown-header" disabled selected>Pilih Current User</option>
                                 <?php
                                 $sql = "SELECT * FROM tbl_users";
@@ -195,7 +201,7 @@
 
                                     <option value="<?php echo $rows["nama_depan"]." ".$rows["nama_belakang"]; ?>"><?php echo $rows["nama_depan"]." ".$rows["nama_belakang"]; ?></option>
                                 <?php } ?>
-                            </select>
+                            </select> -->
                         </div>
                     </div>
 
@@ -209,7 +215,8 @@
                     <div class="col-sm-3">
                         <div class="form-group">
                             <label>Location</label>
-                            <select class="form-control custom-select" id="location_add" name="location" value ="-">
+                            <input type="text" class="form-control" id="location_add" name="location" autocomplete="off" minlength="1" maxlength="50">
+                            <!-- <select class="form-control custom-select" id="location_add" name="location" value ="-">
                                 <option class="dropdown-header" disabled selected>Pilih Location</option>
                                 <option value ="Mobile">Mobile</option>
                                 <option value ="Kantor Atas">Kantor Atas</option>
@@ -217,18 +224,19 @@
                                 <option value ="Conv. Shop">Conv. Shop</option>
                                 <option value ="R. Inventory">R. Inventory</option>
                                 <option value ="Lemari R. Meeting">Lemari R. Meeting</option>
-                            </select>
+                            </select> -->
                         </div>
                     </div>
 
                     <div class="col-sm-3">
                         <div class="form-group">
                             <label>Link To</label>
-                            <select class="form-control custom-select" id="link_to_add" name="link_to" value ="-">
+                            <input type="text" class="form-control" id="link_to_add" name="link_to" autocomplete="off" minlength="1" maxlength="50">
+                            <!--<select class="form-control custom-select" id="link_to_add" name="link_to" value ="-">
                                 <option class="dropdown-header" disabled selected>Pilih Link To</option>
                                 <option value ="WiFi Router">WiFi Router</option>
                                 <option value ="Router HUB">Router HUB</option>
-                            </select>
+                            </select>-->
                         </div>
                     </div>
 
