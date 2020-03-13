@@ -25,6 +25,7 @@
 <script type="text/javascript" src="assets/plugins/DataTables/js/dataTables.select.min.js"></script>
 <script type="text/javascript" src="assets/plugins/DataTables/js/dataTables.editor.min.js"></script>
 <script type="text/javascript" src="assets/plugins/DataTables/js/dataTables.fixedColumns.min.js"></script>
+<script type="text/javascript" src="assets/plugins/DataTables/js/dataTables.colVis.js"></script>
 
 <!-- datepicker Plugin JS -->
 <script type="text/javascript" src="assets/plugins/datepicker/js/bootstrap-datepicker.min.js"></script>
@@ -32,8 +33,6 @@
 <script type="text/javascript" src="assets/plugins/sweetalert/js/sweetalert.min.js"></script>
 <!-- Multiple Select Plugin JS -->
 <script type="text/javascript" src="assets/plugins/multiple-select/js/multiple-select.js"></script>
-<!-- DataTables altEditor Select Plugin JS -->
-<script type="text/javascript" src="assets/plugins/multiple-select/js/dataTables.altEditor.free.js"></script>
 
 <!-- custom JS -->
 <script type="text/javascript">

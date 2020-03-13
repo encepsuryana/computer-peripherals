@@ -39,9 +39,10 @@
     	"select": true,
     	"stateSave": false,
         "ordering": false,
-    	"fixedColumns":   {
-    		leftColumns: 2
-    	},
+        "fixedColumns":   {
+          leftColumns: 2
+      },
+      "dom": 'C<"clear">lfrtip',
 			// panggil file data_assets.php untuk menampilkan data asset dari database
 			"ajax": '_GET/get_data_asset.php',
 
@@ -462,8 +463,8 @@
 	// Proses Hapus Data ==================================================================================
     // ----------------------------------------------------------------------------------------------------
     $('#deleteBtn').on( 'click', '.btnHapus', function (){
-    	 table.row('.selected').remove().draw( false );
-    });
+      table.row('.selected').remove().draw( false );
+  });
 
     $('#tabel-asset tbody').on( 'click', '.btnHapus', function (){
     	if ( $(this).hasClass('selected') ) {
