@@ -42,7 +42,6 @@
         "fixedColumns":   {
           leftColumns: 2
       },
-      "dom": 'C<"clear">lfrtip',
 			// panggil file data_assets.php untuk menampilkan data asset dari database
 			"ajax": '_GET/get_data_asset.php',
 
